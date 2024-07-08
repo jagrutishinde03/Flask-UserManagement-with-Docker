@@ -21,7 +21,7 @@ The Flask User Management System is a web-based application designed to manage u
 - **Edit User Details:** Update user information such as name and email.
 - **Delete Users:** Remove users from the system with a single click.
 
-## Technology Stack
+### Technology Stack
 
 ### Backend
 - **Flask:** A lightweight WSGI web application framework in Python, perfect for building web applications with simplicity and flexibility.
@@ -66,7 +66,7 @@ The Flask User Management System is a web-based application designed to manage u
    Open your web browser and navigate to `http://localhost:5000`.
 
 
-### Docker Compose
+## Docker Compose
 
 For advanced setups using Docker Compose, create a `docker-compose.yml` file in the project root:
 
