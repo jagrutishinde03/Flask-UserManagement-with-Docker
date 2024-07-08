@@ -122,6 +122,14 @@ Use the following credentials to log in to the admin portal:
 - **Email:** `jagruti03shinde@gmail.com`
 - **Password:** `JagrutiShinde03`
 
+## Docker Hub
+
+The Docker image for this application is available on Docker Hub. You can pull it using the following command:
+
+```sh
+docker pull jagruti03shinde/user-management-application
+```
+
 ## Contact
 
 For any inquiries, please contact [jagruti03shinde@gmail.com](mailto:jagruti03shinde@gmail.com).
