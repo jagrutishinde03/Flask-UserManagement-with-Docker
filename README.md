@@ -65,32 +65,6 @@ The Flask User Management System is a web-based application designed to manage u
 
    Open your web browser and navigate to `http://localhost:5000`.
 
-### Local Development Setup
-
-If you prefer running the application without Docker, follow these steps:
-
-1. **Set up a Virtual Environment:**
-
-   ```sh
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-2. **Install Dependencies:**
-
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Application:**
-
-   ```sh
-   python app.py
-   ```
-
-4. **Access the Application:**
-
-   Open your web browser and go to `http://localhost:5000`.
 
 ### Docker Compose
 
@@ -115,13 +89,6 @@ Then run:
 docker-compose up
 ```
 
-## Admin Credentials
-
-Use the following credentials to log in to the admin portal:
-
-- **Email:** `jagruti03shinde@gmail.com`
-- **Password:** `JagrutiShinde03`
-
 ## Docker Hub
 
 The Docker image for this application is available on Docker Hub. You can pull it using the following command:
@@ -129,6 +96,13 @@ The Docker image for this application is available on Docker Hub. You can pull i
 ```sh
 docker pull jagruti03shinde/user-management-application
 ```
+
+## Admin Credentials
+
+Use the following credentials to log in to the admin portal:
+
+- **Email:** `jagruti03shinde@gmail.com`
+- **Password:** `JagrutiShinde03`
 
 ## Contact
 
