@@ -16,35 +16,12 @@
         }
         .login-container {
             background-color: white;
-            padding: 50px;
+            padding: 50px; /* Increased padding for more spacing */
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
+            max-width: 600px; /* Increased max-width */
             width: 100%;
-            min-height: 400px;
-        }
-        .input-group-text {
-            cursor: pointer;
-        }
-        .input-group {
-            position: relative;
-        }
-        .input-group .form-control {
-            padding-right: 2.5rem;
-        }
-        .input-group-text {
-            position: absolute;
-            right: 0.5rem;
-            top: 50%;
-            transform: translateY(-50%);
-            border: none;
-            background: none;
-        }
-        @media (max-width: 576px) {
-            .login-container {
-                padding: 30px;
-                max-width: 90%;
-            }
+            min-height: 400px; /* Set minimum height */
         }
     </style>
 </head>
@@ -58,12 +35,7 @@
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <div class="input-group">
-                    <input type="password" class="form-control" id="password" name="password" required>
-                    <span class="input-group-text" id="toggle-password">
-                        <i class="fa fa-eye"></i>
-                    </span>
-                </div>
+                <input type="password" class="form-control" id="password" name="password" required>
             </div>
             <button type="submit" class="btn btn-primary btn-block">Login</button>
         </form>
@@ -77,22 +49,5 @@
             {% endif %}
         {% endwith %}
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
-    <script>
-        document.getElementById('toggle-password').addEventListener('click', function () {
-            const passwordField = document.getElementById('password');
-            const passwordFieldType = passwordField.getAttribute('type');
-            if (passwordFieldType === 'password') {
-                passwordField.setAttribute('type', 'text');
-                this.innerHTML = '<i class="fa fa-eye-slash"></i>';
-            } else {
-                passwordField.setAttribute('type', 'password');
-                this.innerHTML = '<i class="fa fa-eye"></i>';
-            }
-        });
-    </script>
 </body>
 </html>
