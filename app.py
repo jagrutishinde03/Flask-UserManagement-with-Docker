@@ -7,8 +7,8 @@ app.secret_key = 'supersecretkey'
 users = []
 
 # Admin credentials
-admin_email = 'jagruti03shinde@gmail.com'
-admin_password = 'JagrutiShinde03'
+admin_email = 'admin@gmail.com'
+admin_password = 'admin@123'
 
 @app.route('/')
 def login():
